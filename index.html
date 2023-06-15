@@ -37,31 +37,50 @@
           <img src="pastel1.jpg" alt="Pastel de Carne">
           <h3>Pastel de Carne</h3>
           <p>Delicioso pastel recheado com carne moída.</p>
-          <p class="price">R$ 10,00</p>
+          <p class="price">R$ 5,00</p>
           <button class="btn-add-cart" data-item="Pastel de Carne">Adicionar ao carrinho</button>
         </div>
         <div class="menu-item">
           <img src="pastel2.jpg" alt="Pastel de Queijo">
           <h3>Pastel de Queijo</h3>
           <p>Um pastel irresistível recheado com queijo derretido.</p>
-          <p class="price">R$ 8,00</p>
+          <p class="price">R$ 4,50</p>
           <button class="btn-add-cart" data-item="Pastel de Queijo">Adicionar ao carrinho</button>
         </div>
         <div class="menu-item">
           <img src="pastel3.jpg" alt="Pastel de Frango">
           <h3>Pastel de Frango</h3>
           <p>Um clássico pastel de frango com tempero especial.</p>
-          <p class="price">R$ 10,00</p>
+          <p class="price">R$ 4,50</p>
           <button class="btn-add-cart" data-item="Pastel de Frango">Adicionar ao carrinho</button>
         </div>
         <div class="menu-item">
           <img src="pastel4.jpg" alt="Pastel de Palmito">
           <h3>Pastel de Palmito</h3>
           <p>Delicioso pastel vegano recheado com palmito.</p>
-          <p class="price">R$ 9,00</p>
+          <p class="price">R$ 5,50</p>
           <button class="btn-add-cart" data-item="Pastel de Palmito">Adicionar ao carrinho</button>
         </div>
       </div>
+    </section>
+
+    <section class="order">
+      <h2>Faça seu pedido</h2>
+      <form id="order-form">
+        <div class="form-group">
+          <label for="name">Nome:</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        <div class="form-group">
+          <label for="address">Endereço:</label>
+          <input type="text" id="address" name="address" required>
+        </div>
+        <div class="form-group">
+          <label for="phone">Telefone:</label>
+          <input type="text" id="phone" name="phone" required>
+        </div>
+        <button type="submit" class="btn-submit">Enviar pedido</button>
+      </form>
     </section>
   </main>
 

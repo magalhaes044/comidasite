@@ -44,13 +44,14 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   });
 
-  const orderForm = document.getElementById('order-form');
-  orderForm.addEventListener('submit', function (event) {
+  const form = document.getElementById('order-form');
+  form.addEventListener('submit', function (event) {
     event.preventDefault();
     if (validateForm()) {
       const totalPrice = calculateTotalPrice();
-      alert(`Pedido enviado!\nTotal: R$ ${totalPrice.toFixed(2)}`);
-      orderForm.reset();
+      alert(`Pedido enviado com sucesso! Total: R$ ${totalPrice.toFixed(2)}`);
+      form.reset();
+      cartItems = [];
     }
   });
 });

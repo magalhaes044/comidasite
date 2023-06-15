@@ -109,7 +109,8 @@
   
   .menu-item h3 {
     font-size: 24px;
-    margin: 20px 0;
+    margin-top: 20px;
+    margin-bottom: 10px;
   }
   
   .menu-item p {
@@ -120,12 +121,13 @@
   .price {
     font-size: 18px;
     font-weight: bold;
+    margin-bottom: 20px;
   }
   
   .btn-add-cart {
-    display: inline-block;
+    display: block;
     padding: 10px 20px;
-    background-color: #f28c38;
+    background-color: #f2a857;
     color: #ffffff;
     font-weight: bold;
     text-decoration: none;
@@ -134,12 +136,69 @@
   }
   
   .btn-add-cart:hover {
+    background-color: #f28c38;
+  }
+  
+  /* Estilos do formulário de pedido */
+  .order {
+    text-align: center;
+    padding: 80px 0;
+    background-color: #ffffff;
+  }
+  
+  .order h2 {
+    font-size: 30px;
+    margin-bottom: 40px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  label {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 1px solid #dddddd;
+  }
+  
+  .btn-submit {
+    padding: 10px 20px;
     background-color: #f2a857;
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-submit:hover {
+    background-color: #f28c38;
   }
   
   /* Estilos do rodapé */
   footer {
-    background-color: #ffffff;
+    background-color: #f2a857;
     text-align: center;
-    padding: 20px;
-  }  
+    padding: 20px 0;
+  }
+  
+  footer p {
+    font-size: 14px;
+  }
+  
+  /* Estilos responsivos */
+  @media (max-width: 768px) {
+    .menu-items {
+      grid-template-columns: 1fr;
+    }
+  }
+  
