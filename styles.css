@@ -1,0 +1,145 @@
+/* Reset de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Estilos globais */
+  body {
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+    background-color: #f28c38;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Estilos do cabeçalho */
+  header {
+    background-color: #ffffff;
+    padding: 10px;
+  }
+  
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .logo img {
+    width: 100px;
+  }
+  
+  .menu {
+    list-style: none;
+  }
+  
+  .menu li {
+    display: inline-block;
+    margin-left: 20px;
+  }
+  
+  .menu a {
+    text-decoration: none;
+    color: #f28c38;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  .menu a:hover {
+    color: #f2a857;
+  }
+  
+  /* Estilos do herói */
+  .hero {
+    text-align: center;
+    padding: 100px 0;
+  }
+  
+  .hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 18px;
+    margin-bottom: 40px;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f2a857;
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #f28c38;
+  }
+  
+  /* Estilos do cardápio */
+  .menu {
+    text-align: center;
+    padding: 80px 0;
+  }
+  
+  .menu h2 {
+    font-size: 30px;
+    margin-bottom: 40px;
+  }
+  
+  .menu-items {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+  }
+  
+  .menu-item img {
+    width: 100%;
+    border-radius: 4px;
+  }
+  
+  .menu-item h3 {
+    font-size: 24px;
+    margin: 20px 0;
+  }
+  
+  .menu-item p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .price {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .btn-add-cart {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f28c38;
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-add-cart:hover {
+    background-color: #f2a857;
+  }
+  
+  /* Estilos do rodapé */
+  footer {
+    background-color: #ffffff;
+    text-align: center;
+    padding: 20px;
+  }  
